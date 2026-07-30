@@ -1,8 +1,28 @@
 aid: lost-lake
-name: Lost Lake
-description: Lost Lake is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lost-lake.png
+name: Lost Lake Games
+description: >-
+  Lost Lake Games is a Seattle-based independent video game studio building
+  narrative-driven games. The studio raised a $5.1M seed round in 2022 led by
+  BITKRAFT Ventures with participation from Lightspeed Venture Partners, 1Up
+  Ventures, and Moon Holdings, and describes itself as being at the beginning of
+  its next big adventure. As a consumer game developer, Lost Lake does not
+  currently operate a public developer platform, API, SDK, or documentation
+  surface; its web presence is a marketing site with an email signup and links to
+  Steam, Discord, and Twitter/X. This profile captures the company's identity and
+  public footprint within the API Evangelist network, surfaced originally as a
+  Lightspeed Venture Partners portfolio company.
 url: https://raw.githubusercontent.com/api-evangelist/lost-lake/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +32,28 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Video Games
+- Gaming
+- Game Studio
+- Entertainment
+- Seattle
+- Consumer
 apis: []
+common:
+- type: DomainSecurity
+  url: security/lost-lake-domain-security.yml
+- type: Website
+  url: https://lostlakegames.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
